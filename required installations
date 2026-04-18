@@ -1,0 +1,4 @@
+pip install langchain langchain-community sentence-transformers faiss-cpu pypdf transformers
+pip install langchain-text-splitters
+pip uninstall langchain langchain-community langchain-text-splitters -y
+pip install langchain==0.1.20 langchain-community==0.0.38 langchain-text-splitters
