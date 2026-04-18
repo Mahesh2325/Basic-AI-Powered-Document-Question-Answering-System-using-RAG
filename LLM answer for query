@@ -43,7 +43,7 @@ Answer:
 
     full_text = response[0]['generated_text']
 
-    # ✅ Extract only answer part
+    # Extract only answer part
     if "Answer:" in full_text:
         answer = full_text.split("Answer:")[-1]
     else:
